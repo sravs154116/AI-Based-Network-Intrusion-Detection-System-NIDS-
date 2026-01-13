@@ -69,5 +69,17 @@ https://huggingface.co/spaces/Sravanthi1211/PROJECT_VOIS
 
 ---
 
-## 📂 Project Structure
+## 🎓 Academic Use
+
+This project is developed as part of an academic requirement and is intended for learning and demonstration purposes in the field of cybersecurity and machine learning.
+
+---
+
+## 🙏 Acknowledgements
+
+- CIC-IDS2017 Dataset  
+- Streamlit  
+- Scikit-learn  
+- Hugging Face  
+
 
