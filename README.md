@@ -1,85 +1,28 @@
-# AI-Based Network Intrusion Detection System (NIDS)
-
-This project presents an AI-powered Network Intrusion Detection System (NIDS) that uses Machine Learning techniques to detect malicious network traffic. The system is designed as a student project and demonstrates how Random Forest can be applied to real-world cybersecurity problems.
-
+---
+title: AI NIDS Student Project
+emoji: 🛡️
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
+pinned: false
 ---
 
-## 🚀 Project Overview
+# 🛡️ AI-Based Network Intrusion Detection System (Student Project)
 
-With the increasing number of cyber attacks, traditional rule-based intrusion detection systems are no longer sufficient. This project implements a data-driven approach to analyze network traffic and classify it as either normal or malicious.
+This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (Grok)** to detect and explain network attacks (specifically DDoS).
 
-The model is trained on the **CIC-IDS2017 dataset**, which contains realistic benign and attack traffic, making the system suitable for academic and practical demonstrations.
+## 🚀 How to Use
+1. **Enter API Key:** Paste your Grok API key in the sidebar (optional, for AI explanations).
+2. **Train Model:** Click the "Train AI Model" button. The system loads the `Friday-WorkingHours...` dataset automatically.
+3. **Simulate:** Click "Simulate Random Packet" to pick a real network packet from the test set.
+4. **Analyze:** See if the model flags it as **BENIGN** or **DDoS**, and ask Grok to explain why.
 
----
+## 📂 Files
+- `app.py`: The main Python application code.
+- `requirements.txt`: List of libraries used.
+- `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: The dataset (CIC-IDS2017 subset).
 
-## 🎯 Key Features
-
-- Machine Learning–based intrusion detection  
-- Random Forest classifier for accurate predictions  
-- Trained on real-world CIC-IDS2017 dataset  
-- Interactive web interface using Streamlit  
-- Live traffic simulation using test data  
-- Deployed on Hugging Face Spaces  
-
----
-
-## 🧠 Machine Learning Model
-
-- **Algorithm:** Random Forest Classifier  
-- **Input:** Network flow-based features  
-- **Output:**  
-  - BENIGN (Normal Traffic)  
-  - ATTACK (Intrusion)  
-
----
-
-## 🛠️ Technology Stack
-
-- Python  
-- Pandas, NumPy  
-- Scikit-learn  
-- Streamlit  
-- Docker  
-- Hugging Face Spaces  
-
----
-
-## 📊 Dataset Used
-
-- **CIC-IDS2017 Dataset**  
-- Contains labeled network traffic data including benign and multiple attack types  
-- Used for training and evaluating the machine learning model  
-
----
-
-## 🌐 Web Application
-
-The application provides a user-friendly dashboard where users can:
-- Train the model  
-- Simulate network traffic  
-- View prediction results  
-- Analyze packet-level features  
-
----
-
-## 🔗 Live Demo
-
-👉 **Deployed Application:**  
-https://huggingface.co/spaces/Sravanthi1211/PROJECT_VOIS
-
----
-
-## 🎓 Academic Use
-
-This project is developed as part of an academic requirement and is intended for learning and demonstration purposes in the field of cybersecurity and machine learning.
-
----
-
-## 🙏 Acknowledgements
-
-- CIC-IDS2017 Dataset  
-- Streamlit  
-- Scikit-learn  
-- Hugging Face  
-
-
+## 🎓 About
+Created for a university cybersecurity project to demonstrate the integration of traditional ML and LLMs in security operations.
